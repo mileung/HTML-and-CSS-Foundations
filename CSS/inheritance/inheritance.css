@@ -1,0 +1,13 @@
+html {
+  font-family: cursive;
+  color: red;
+  border: 1px solid black;
+}
+
+#hi {
+  font-family: fantasy !important;
+}
+
+#hi {
+  font-family: monospace;
+}

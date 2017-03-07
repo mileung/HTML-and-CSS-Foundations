@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+#title {
+  border: 1px solid black;
+  margin-left: 100px;
+  margin: 10px 100px 0 40px;
+  padding: 100px;
+}
+
+#box {
+  padding: 0px;
+  border: 1px solid black;
+}
+
+#box p {
+  margin: 0;
+}
