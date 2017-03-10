@@ -33,3 +33,19 @@ body > div:nth-child(2) {
     font-size: 1.5em;
   }
 }
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 500px) and (max-height: 500px) {
+  body > div:nth-child(1) {
+    background-color: #ff80ff;
+  }
+
+  body > div:nth-child(2) {
+    background-color: #bf80ff;
+  }
+}

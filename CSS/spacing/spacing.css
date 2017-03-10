@@ -1,19 +1,20 @@
 body {
+  margin: 100px;
+  background-color: #ffb3b3;
+}
+
+.box {
+  height: 400px;
+  margin: 5px;
+  background-color: #ff4d4d;
+  overflow: auto;
+  padding: 30px;
+}
+
+.box h1 {
   margin: 0;
 }
 
-#title {
-  border: 1px solid black;
-  margin-left: 100px;
-  margin: 10px 100px 0 40px;
-  padding: 100px;
-}
-
-#box {
-  padding: 0px;
-  border: 1px solid black;
-}
-
-#box p {
+.box p {
   margin: 0;
 }
