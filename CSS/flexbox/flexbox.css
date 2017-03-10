@@ -23,17 +23,23 @@ body {
 .row > div:nth-child(1) {
   flex: 3;
   border-bottom: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 #gallery {
   flex: 8;
+}
+
+#gallery > div {
   display: flex;
   flex-wrap: wrap;
 }
 
-#gallery > div {
+#gallery > div >div {
   border: 2px solid black;
-  height: 200px;
-  width: 200px;
-  margin: 10px;
+  height: 150px;
+  width: 150px;
+  margin: 25px;
 }
