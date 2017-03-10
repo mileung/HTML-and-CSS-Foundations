@@ -3,33 +3,29 @@ html {
 }
 
 #name {
-  
+  color: salmon;
 }
 
 #hexadecimal {
-  
+  color: #7e63a3;
 }
 
 #shortHex {
-  
+  color: #fff;
 }
 
 #rgb {
-  
-}
-
-#rgb {
-  
+  color: rgb(43, 154, 200);
 }
 
 #rgba {
-  
+  color: rgba(43, 154, 200, 0.5);
 }
 
 #hsl {
-  
+  color: hsl(300, 36%, 58%);
 }
 
 #hsla {
-  
+  color: hsla(300, 36%, 58%, 0.6);
 }
