@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+
+#welcome, #gallery, #footer {
+  display: flex;
+}
+
+#welcome {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+
+#header {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#header > h2 {
+  margin: 10px;
+}
+
+#gallery {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  height: 290px;
+  width: 290px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.cardSpace {
+  width: 290px;
+  margin: 10px;
+}
+
+#footer div {
+  height: 40px;
+  flex: 1
+}
+
+#footer div:nth-child(1) {
+  background-color: red;
+}
+
+#footer div:nth-child(2) {
+  background-color: yellow;
+  flex: 5;
+}
+
+#footer div:nth-child(3) {
+  background-color: antiquewhite;
+}
+
+#footer div:nth-child(4) {
+  background-color: blue;
+  flex: 3;
+}
+
+#footer div:nth-child(5) {
+  background-color: orange;
+}
