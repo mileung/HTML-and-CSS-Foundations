@@ -1,0 +1,25 @@
+div, .border {
+  border: 1px solid black;
+}
+
+.text {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+#header h1 {
+  margin: 10px 50px;
+}
+
+#box {
+  margin: 5px;
+  padding: 10px;
+}
+
+#box div {
+  height: 40px;
+  width: 90px;
+}

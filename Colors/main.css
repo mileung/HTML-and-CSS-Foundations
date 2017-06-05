@@ -1,0 +1,12 @@
+h2 {
+  color: hsl(225, 100%, 60%);
+}
+
+h1 {
+  color: #99ff99;
+  background-color: red;
+}
+
+html {
+  background-color: rgb(153, 204, 255);
+}

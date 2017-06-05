@@ -1,0 +1,7 @@
+#header>h3 {
+  color: green;
+}
+
+p:nth-last-child(3) {
+  color: red;
+}

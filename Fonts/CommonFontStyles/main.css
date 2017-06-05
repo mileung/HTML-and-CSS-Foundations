@@ -1,0 +1,12 @@
+html {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-weight: lighter;
+}
+
+span {
+  color: red;
+  font-style: italic;
+}
