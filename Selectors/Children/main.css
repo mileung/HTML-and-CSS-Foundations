@@ -1,7 +1,7 @@
-#header>h3 {
-  color: green;
+body p {
+  border: 1px solid black;
 }
 
-p:nth-last-child(3) {
+body>p {
   color: red;
 }

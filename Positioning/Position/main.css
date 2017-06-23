@@ -1,0 +1,28 @@
+body {
+  height: 300vh;
+  position: relative;
+}
+
+div {
+  height: 20vmin;
+  width: 20vmin;
+}
+
+#one {
+  background-color: rgba(46, 204, 113, 0.7);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#two {
+  background-color: rgba(52, 152, 219, 0.7);
+  position: fixed;
+}
+
+#three {
+  background-color: rgba(155, 89, 182, 0.7);
+  position: relative;
+  top: 20vmin;
+  left: 20vmin;
+}

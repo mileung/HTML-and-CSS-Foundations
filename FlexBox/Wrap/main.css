@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  display: flex;
+}
+
+#side-menu {
+  width: 200px;
+  background-color: #e5e5e5;
+  height: 100vh;
+  position: fixed;
+}
+
+#content {
+  margin-left: 200px;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+#content div {
+  border: 1px solid black;
+  height: 5em;
+  flex: 1;
+  margin: 5px;
+  flex-basis: 300px;
+}
+
+#content #hidden {
+  border: 1px solid black;
+  height: 0;
+  flex: 1;
+  margin: 5px;
+  flex-basis: 300px;
+  opacity: 0;
+}

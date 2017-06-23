@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+div {
+  border: 1px solid black;
+  margin: 15px 5px;
+  padding: 5px;
+}
+
+#px {
+  width: 30px;
+}
+
+#em {
+  font-size: 1.2em;
+  width: 30em;
+}
+
+html {
+  font-size: 10px;
+}
+
+#rem {
+  font-size: 30px;
+  width: 30rem;
+}
+
+#v {
+  width: 50vmin;
+}
+
+#percent {
+  width: 50%;
+}

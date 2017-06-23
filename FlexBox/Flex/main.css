@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  display: flex;
+}
+
+#one {
+  background-color: rgba(46, 204, 113, 0.7);
+  height: 20vh;
+  width: 20vh;
+}
+
+#two {
+  background-color: rgba(52, 152, 219, 0.7);
+  height: 20vh;
+  width: 20vh;
+}
+
+#three {
+  background-color: rgba(155, 89, 182, 0.7);
+  height: 20vh;
+  width: 20vh;
+}

@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  display: flex;
+}
+
+#menu {
+  width: 200px;
+  background-color: #e5e5e5;
+  height: 100vh;
+  position: fixed;
+}
+
+#content {
+  margin-left: 200px;
+  flex: 1;
+  padding: 0 1em;
+}
+
+h1, p {
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
+@media (max-width: 600px) and (orientation: portrait) {
+  body {
+      display: block;
+  }
+
+  #menu {
+    width: 100vw;
+    height: 100px;
+    position: static;
+  }
+
+  #content {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1000px) and (orientation: landscape) {
+  #menu {
+    width: 300px;
+  }
+
+  #content {
+    margin-left: 300px;
+  }
+}

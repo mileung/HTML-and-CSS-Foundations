@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#box {
+  height: 10em;
+  width: 10em;
+  position: relative;
+  background-color: #2fb4ed;
+  /*animation-name: box-animation;
+  animation-duration: 1.5s;
+  animation-delay: 1s;
+  animation-iteration-count: 2;
+  animation-direction: normal;
+  animation-timing-function: ease-in-out;*/
+
+  animation: box-animation 1.5s ease-in-out 1s 2 normal;
+}
+
+@keyframes box-animation {
+  0% {
+    left: 0;
+  }
+  35% {
+    left: -15em;
+    transform: rotate(0deg);
+    border-radius: 0;
+  }
+  70% {
+    left: 15em;
+    transform: rotate(360deg);
+    border-radius: 5em;
+  }
+  71% {
+    transform: rotate(0deg);
+  }
+  100% {
+    left: 0;
+  }
+}

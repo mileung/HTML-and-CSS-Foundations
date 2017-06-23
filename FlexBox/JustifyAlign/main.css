@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  display: flex;
+  height: 50vh;
+  /*flex-direction: column;*/
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#one {
+  background-color: rgb(241, 196, 15);
+  height: 20vh;
+  width: 20vh;
+}
+
+#two {
+  background-color: rgb(230, 126, 34);
+  height: 20vh;
+  width: 20vh;
+}
+
+#three {
+  background-color: rgb(231, 76, 60);
+  height: 20vh;
+  width: 20vh;
+}

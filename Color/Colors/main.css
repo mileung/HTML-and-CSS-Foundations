@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+.box {
+  width: 100vw;
+  height: 25vh;
+}
+
+.box h1 {
+  margin: 0;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
+.name {
+  background-color: blue;
+}
+
+.hexidecimal {
+  background-color: #215cba;
+}
+
+.rgb {
+  background-color: rgb(58, 186, 32);
+}
+
+.opacity {
+  background-color: rgba(0, 0, 0, 0);
+}

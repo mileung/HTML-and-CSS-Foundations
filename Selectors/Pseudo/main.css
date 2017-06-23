@@ -1,0 +1,11 @@
+#hover:hover {
+  color: red;
+}
+
+#press:active {
+  color: green;
+}
+
+input:focus {
+  background-color: yellow;
+}
